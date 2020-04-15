@@ -1,0 +1,26 @@
+.Header img {
+  height: 80px;
+  width: 100%;
+}
+.Header {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Header nav {
+  text-align: left;
+  background-color: rgb(35, 130, 185);
+  line-height: 40px;
+  font-size: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: rgb(44, 42, 41);
+  padding: 5px;
+}
+
+nav a:hover {
+  background-color: rgb(206, 194, 194);
+}
