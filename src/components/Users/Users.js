@@ -30,17 +30,16 @@ const Users = () => {
   return (
     <div className="page-container">
       <div className="users-container">
-        <div className="users-position">
-          {peoples.map((ppl) => (
-            <SingleUser
-              keys={ppl.keys}
-              peopleInfo={ppl}
-              showAddToCart={true}
-              handleAddPeople={handleAddPeople}
-            ></SingleUser>
-          ))}
-        </div>
+        {peoples.map((ppl) => (
+          <SingleUser
+            keys={ppl.keys}
+            peopleInfo={ppl}
+            showAddToCart={true}
+            handleAddPeople={handleAddPeople}
+          ></SingleUser>
+        ))}
       </div>
+
       <div className="cart-container">
         <Cart cart={cart}></Cart>
       </div>

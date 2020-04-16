@@ -2,6 +2,7 @@ import React from "react";
 import "./SingleUser.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const SingleUser = (props) => {
   const { name, email, phone, salary, img, keys } = props.peopleInfo;

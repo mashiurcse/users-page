@@ -11,10 +11,10 @@
   margin: 0 10px 10px 5px;
 }
 .main-button {
-    background-color: goldenrod;
-    width: 150px;
-    height: 30px;
-    border: 1px solid darkgray;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+  background-color: goldenrod;
+  width: 150px;
+  height: 30px;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -2,12 +2,7 @@
   display: flex;
 }
 
-.users-position {
-  width: 30%;
-}
-
 .users-container {
-  display: flex;
   margin: 10px;
   border-right: 1px solid gray;
   width: 80%;
