@@ -2,21 +2,21 @@
   display: flex;
 }
 
+.users-position {
+  width: 30%;
+}
+
 .users-container {
+  display: flex;
   margin: 10px;
   border-right: 1px solid gray;
-
-  width: 70%;
+  width: 80%;
 }
 
-.user-info {
-  display: flex;
-  border-bottom: 1px solid gray;
-  margin: 10px;
-}
-.user-info img {
-  float: left;
-  height: 80px;
-  width: 80px;
-  margin: 0 10px 10px 5px;
+.cart-container {
+  color: brown;
+  margin-top: 20px;
+  background-color: rgb(223, 213, 202);
+  height: 200px;
+  padding: 20px;
 }
